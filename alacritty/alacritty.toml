@@ -1,0 +1,25 @@
+import = [
+  "~/.config/alacritty/themes/everforest.toml", # Everforest Theme
+  "~/.config/alacritty/fonts/fonts.toml"
+]
+
+[window]
+decorations = "None"
+dynamic_padding = true
+
+[shell]
+program = "/opt/homebrew/bin/fish"
+
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Beam", blinking = "Never"}
+vi_mode_style = "None"
+
+[terminal]
+osc52 = "CopyPaste"
+
+[mouse]
+hide_when_typing = true

@@ -1,0 +1,24 @@
+# EverForest theme
+[colors.primary]
+foreground = "#D3C6AA"
+background = "#293136"
+
+[colors.normal]
+black = "#475258"
+red = "#E67E80"
+green = "#83C092"
+yellow = "#DBBC7F"
+blue = "#7FBBB3"
+magenta = "#D699B6"
+cyan = "#83C092"
+white = "#D3C6AA"
+
+[colors.bright]
+black = "#475258"
+red = "#E67E80"
+green = "#A7C080"
+yellow = "#DBBC7F"
+blue = "#7FBBB3"
+magenta = "#D699B6"
+cyan = "#83C092"
+white = "#D3C6AA"
