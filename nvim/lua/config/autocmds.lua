@@ -19,10 +19,18 @@ vim.api.nvim_create_autocmd("InsertLeave", {
   end,
 })
 
--- Disable autoformat for specific fileType
+-- Enable autoformat for specific fileType
 vim.api.nvim_create_autocmd("FileType", {
   pattern = { "html", "css" },
   callback = function()
     vim.b.autoformat = true
+  end,
+})
+
+-- Disable autoformat for specific fileType
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "c", "cpp" },
+  callback = function()
+    vim.b.autoformat = false
   end,
 })

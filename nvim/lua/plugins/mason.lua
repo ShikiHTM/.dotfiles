@@ -8,7 +8,6 @@ return {
       "typescript-language-server",
       "stylua",
       "shfmt",
-      "clangd",
       "pyright",
       "css-lsp",
       "html-lsp",
